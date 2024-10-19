@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input id="result" type="text" placeholder="0">
+        <div>
+            <button onclick="clrAll()" class="oparetor">AC</button>
+            <button onclick="Del()"  class="oparetor">DEL</button>
+            <button onclick="numShow('%')"  class="oparetor">%</button>
+            <button onclick="numShow('/')"  class="oparetor">/</button>
+        </div>
+        <div>
+            <button onclick="numShow('7')" >7</button>
+            <button onclick="numShow('8')" >8</button>
+            <button onclick="numShow('9')" >9</button>
+            <button onclick="numShow('*')"  class="oparetor">*</button>
+        </div>
+        <div>
+            <button onclick="numShow('4')" >4</button>
+            <button onclick="numShow('5')" >5</button>
+            <button onclick="numShow('6')" >6</button>
+            <button onclick="numShow('-')"  class="oparetor">-</button>
+        </div>
+        <div>
+            <button onclick="numShow('1')" >1</button>
+            <button onclick="numShow('2')" >2</button>
+            <button onclick="numShow('3')" >3</button>
+            <button onclick="numShow('+')"  class="oparetor">+</button>
+        </div>
+        <div>
+            <button onclick="numShow('00')" >00</button>
+            <button onclick="numShow('0')" >0</button>
+            <button onclick="numShow('.')"  class="oparetor">.</button>
+            <button onclick="calculator()"  class="equalbtn">=</button>
+        </div>
+    </div>
+
+    <!-- *************** -->
+     <script src="assets/script.js"></script>
+</body>
+</html>
